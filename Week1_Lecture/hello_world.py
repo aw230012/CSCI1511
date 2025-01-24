@@ -1,2 +1,6 @@
 age = int(input("Enter your age: "))
-print(f"Your age is: {age}")
+message = "You are " \
+  + f"{age} " \
+  + "years old."
+
+print(message)
